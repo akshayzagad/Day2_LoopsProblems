@@ -19,5 +19,17 @@ public class ArthmaticOpration {
         System.out.println("Opration 2 "+ Opration2);
         System.out.println("Opration 3 "+ Opration3);
         System.out.println("Opration 4 "+ Opration4);
+        if (Opration1>Opration2 && Opration1>Opration3 && Opration1>Opration4){
+        System.out.println("Opration 1 is Greater");
+        }
+        else if (Opration2>Opration1 && Opration2>Opration3 && Opration2>Opration4) {
+        System.out.println("Opration 2 is Greater");
+        }
+        else if (Opration3>Opration1 && Opration3>Opration2 && Opration3>Opration4) {
+        System.out.println("Opration 3 is Greater");
+       }
+        else {
+        System.out.println("Opration 4 is Greater");
+       }
     }
 }
